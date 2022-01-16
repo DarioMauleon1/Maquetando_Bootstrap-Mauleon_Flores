@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.carruselMuse {
+    padding-top: 1rem;
+}
+
+
+.flex-padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;  
+}
+.flex-hijo1 {
+    padding-top: 2rem;
+    width: 500px;
+    text-align: justify;  
+}
+
+/********************************************************CONTAINERALBUMES************************************************************/
+
+
+
+.sectionAlbumes {
+    padding-left: 10rem;
+    padding-top: 7rem;
+    color: #D0D3D4;
+}
+
+                            /*****************************FLEXSHOWBIZ****************************/
+.flexPadreShowbiz{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Showbiz img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.flexHijo2Showbiz img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Showbiz {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Showbiz ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Showbiz li {
+padding: 0.5rem;
+}
+
+
+                                /****************************FLEXORIGIN********************************/
+.flexPadreOrigin{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Origin img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.flexHijo2Origin img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Origin {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Origin ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Origin li {
+padding: 0.5rem;
+}
+
+                                  /**************************FLEXABSOLUTION***************************/
+.flexPadreAbsolution{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Absolution img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.flexHijo2Absolution img:hover{
+    transform: scale(1.3);
+}
+.flexHijo1Absolution {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Absolution ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Absolution li {
+padding: 0.5rem;
+}
+
+                           /*******************************FLEXBLACK***********************************/
+.flexPadreBlack{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Black img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+.flexHijo2Black img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Black {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Black ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Black li {
+padding: 0.5rem;
+}
+
+
+                            /**************************FLEXRESISTANCE******************************/
+.flexPadreResistance{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Resistance img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+.flexHijo2Resistance img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Resistance {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Resistance ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Resistance li {
+padding: 0.5rem;
+}
+
+                               /******************************FLEXLAW***********************************/
+.flexPadreLaw{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Law img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+.flexHijo2Law img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Law {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Law ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Law li {
+padding: 0.5rem;
+}
+                                  /***************************FLEXDRONES***********************************/
+.flexPadreDrones{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Drones img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.flexHijo2Drones img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Drones {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Drones ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Drones li {
+padding: 0.5rem;
+}
+                                   /***************************FLEXSIMULATION*******************************/
+.flexPadreSimulation{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo2Simulation img {
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.flexHijo2Simulation img:hover{
+    transform: scale(1.3);
+}
+
+.flexHijo1Simulation {
+    padding-bottom: 10rem;
+}
+
+.flexHijo1Simulation ol {
+    margin-top: 1rem;
+}
+
+.flexHijo1Simulation li {
+padding: 0.5rem;
+}
+
+/**************************************************************FOOTER******************************************************************************/
+.footer {
+    background: black;
+    color: white;
+  
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer__menu {
+    list-style: none;
+    font-size: medium;
+    
+}
+
+.footer__menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__credito {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+
+}
+
+
+.lateral {
+    display: flex;
+    flex-direction: row;
+}
+.lateral label {
+    font-size: medium;
+}
+.flexSuscribete {
+    padding-top: 2.2rem;
+    padding-left: 2rem;
+}
+
